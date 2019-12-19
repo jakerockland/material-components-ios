@@ -469,7 +469,7 @@ generate_website() {
 
     ./scripts/build_site.sh
 
-    gem_install bundler
+    gem_install bundler --prerelease
     brew_install yarn --ignore-dependencies
     
     # The above installations update node to v10, but the docsite generator
