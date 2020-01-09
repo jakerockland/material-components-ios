@@ -1,4 +1,4 @@
-// Copyright 2018-present the Material Components for iOS authors. All Rights Reserved.
+// Copyright 2019-present the Material Components for iOS authors. All Rights Reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -14,6 +14,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ActionSheetTypicalUseExampleViewController : UIViewController
+#import "MDCTextControlConfiguratorExample.h"
+
+/** This view controller manages a child view controller that contains the actual example content.
+ * It overrides the child view controller's trait collection based off the user's behavior. */
+@interface MDCTextControlTextFieldConfiguratorExample : MDCTextControlConfiguratorExample
 
 @end
